@@ -1,0 +1,25 @@
+{
+  "name": "humanwrite-ai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.0",
+    "docx": "^9.5.1",
+    "next": "15.5.2",
+    "openai": "^5.12.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "@types/react": "^19.0.10",
+    "tailwindcss": "^4.1.8",
+    "typescript": "^5.8.3"
+  }
+}
